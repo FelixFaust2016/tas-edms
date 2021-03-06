@@ -1,0 +1,20 @@
+@import "./base/settings";
+@import "./base/base";
+
+// @import "./components/button";
+@import "./components/logo";
+@import "./components/navigation";
+@import "./components/tablets";
+@import "./components/sidenav";
+@import "./components/footer";
+@import "./components/documentspage";
+@import "./components/modal";
+@import "./components/file";
+@import "./components/folder";
+
+@import "./pages/home";
+@import "./pages/mainpage";
+@import "./pages/signup";
+@import "./pages/mydrive";
+
+// @import "node_modules/progress-tracker/src/styles/progress-tracker.scss";

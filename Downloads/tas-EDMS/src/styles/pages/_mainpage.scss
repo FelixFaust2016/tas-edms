@@ -1,0 +1,11 @@
+.mainpage {
+    display: flex;
+}
+.leftside {
+    flex: 0 0 200px;
+  }
+  .rightside {
+    width: 70%;
+    height: max-content;
+    flex: 1 1 100%;
+  }

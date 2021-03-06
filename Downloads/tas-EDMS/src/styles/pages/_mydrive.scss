@@ -1,0 +1,24 @@
+.my-drive{
+    // background-color: red;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.my-drive .folders-div{
+    height: 16%
+}
+
+.my-drive .folders-div p{
+    color: #7e9375;
+}
+
+.my-drive .files-div {
+    margin-top: 40px;
+    // background-color: red;
+    height: 84%;
+}
+
+.my-drive .files-div .files-container{
+    height: 100%;
+}

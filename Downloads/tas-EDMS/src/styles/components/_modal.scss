@@ -1,0 +1,55 @@
+.modal{
+    background-color: #ffffff;
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.modal  h1 {
+    margin-bottom: 4%;
+}
+
+.modal button, #myfile {
+    display: flex;
+    // margin-right: 20px;
+    border-radius: 2px;
+    border-width: 3px;
+    background-color: white;
+    border-color: $main-green;
+    border-style: solid;
+    width: 35%;
+    height: 13%;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-family: var(--nav-text);
+    color: $main-green;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#myfile::-webkit-file-upload-button {
+   visibility: hidden;
+   opacity: 0;
+   width: 0.1px;
+   height: 0.1px;
+   position: absolute;
+   display: none;
+}
+
+#myfile{
+    display: none;
+}
+
+.modal p{
+    margin-top: 10px;
+    margin-bottom: 4%;
+    font-size: 100%;
+    text-align: center;
+}
